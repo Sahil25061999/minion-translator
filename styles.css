@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('minions_PNG79.png');
+
+  /* background-position: left; */
+  /* background-position-x: 25rem; */
+  /* background-size: cover; */
+  /* background-clip: content-box; */
+
+  background-repeat: no-repeat;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding: 1.5rem;
+  color: rgb(55, 2, 177);
+  backdrop-filter: blur(4px);
+  width: 100%;
+  text-align: center;
+}
+
+#input,
+#output {
+  background-color: rgb(255, 247, 137);
+  backdrop-filter: blur(2rem);
+  height: 25vh;
+  width: 50vw;
+  margin: 2rem;
+  border: 0.2rem solid rgb(255, 245, 111);
+  color: rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0px 8px 24px rgb(126, 135, 138, 0.15);
+}
+
+#btn {
+  display: block;
+  padding: 1rem 1.5rem;
+  border-radius: 1.5rem;
+  background-color: rgb(66, 15, 184);
+  color: rgb(206, 185, 255);
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  box-shadow: 0 8px 24px rgba(68, 68, 68, 0.1);
+  transform: scale(1);
+}
+
+#btn:hover {
+  transform: scale(1.1);
+}
